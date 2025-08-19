@@ -1,0 +1,18 @@
+[
+  {
+    "input": "¿Cómo puedo reiniciar mi contraseña?",
+    "output": "Para reiniciar tu contraseña, por favor, ve a la página de inicio de sesión y haz clic en el enlace '¿Olvidaste tu contraseña?'. Sigue las instrucciones que se te enviarán a tu correo electrónico."
+  },
+  {
+    "input": "La función de login me da un error de autenticación. No puedo acceder a mi cuenta.",
+    "output": "```json\n{\n  \"tipo_error\": \"Error de autenticación\",\n  \"nombre_funcion\": \"login\",\n  \"descripcion_problema\": \"No puede acceder a su cuenta.\"\n}\n```"
+  },
+  {
+    "input": "La aplicación está muy lenta hoy, ¿hay algún problema con los servidores?",
+    "output": "Estamos experimentando un alto tráfico en nuestros servidores. Pedimos disculpas por los inconvenientes y estamos trabajando para resolverlo lo antes posible."
+  },
+  {
+    "input": "Tengo un problema con el registro de nuevos usuarios, falla al guardar los datos en la base de datos.",
+    "output": "```json\n{\n  \"tipo_error\": \"Error de base de datos\",\n  \"nombre_funcion\": \"registro_usuarios\",\n  \"descripcion_problema\": \"No se pueden guardar los datos en la base de datos.\"\n}\n```"
+  }
+]
